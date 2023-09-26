@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla</title>
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
+
+    <link rel="stylesheet" href="vanila.css">
+    <script src="script.js"></script>
+
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+
+
+</head>
+<header>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="imagens/image-removebg-preview (1) 1.png" alt="some text" width="200"></a>
+   
+      <div class="icone"><img src="imagens/compras.png" alt="some text" width="75" ></div>
+      </form>
+    </div>
+  </nav>
+
+
+
+</header>
+
+<br><br>
+
+<body onload="Conversao()">
+<!-- Banner -->
+    <main>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/banner2.png" class="d-block w-100" alt="...">
+          </div>
+         
+        </div>
+
+        <br><br>
+
+<!-- carrocel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card  " style="width: 18rem;">
+              <!--Roupa 1-->
+              <img src="imagens/vestido.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vestido festa</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar1">60,79</span></p>
+          <p class="card-text">Valor em Real: <span id="real1"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+        <!--Roupa 2-->
+      </div><div class="card" style="width: 18rem;">
+        <img src="imagens/vestidos-vestido-de-festa-socorro-preto-p-1664207921327.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vestido de Festa Socorro Preto</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar2">68,90</span></p>
+          <p class="card-text">Valor em Real: <span id="real2"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+
+              </div>
+              <!--Roupa 3-->
+              <div class="card" style="width: 18rem;">
+        <img src="imagens/conjunto-saia-longa-com-cropped-manga-curta-preta.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Conjunto Saia Longa com Cropped Manga Curta - Preta</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar3">68,90</span></p>
+          <p class="card-text">Valor em Real: <span id="real3"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+      </div>
+      </div>
+          </div>
+          <!--Roupa 4-->
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card  " style="width: 18rem;">
+        <img src="imagens/roupa4444444.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Macacão Preto com Decote Profundo</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar4">30,40</span></p>
+          <p class="card-text">Valor em Real: <span id="real4"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+      </div>
+      <!--Roupa 5-->
+      <div class="card" style="width: 18rem;">
+        <img src="imagens/moletomm.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Moletom Feminino Blusa De Frio Com Capuz</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar5">30,40</span></p>
+          <p class="card-text">Valor em Real: <span id="real5"></span></p>
+          <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+              </div>
+              <!--Roupa 6-->
+              <div class="card" style="width: 18rem;">
+        <img src="imagens/longopreto.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cropped Manga Longa Maggio</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar6">90.00</span></p>
+          <p class="card-text">Valor em Real: <span id="real6"></span></p>
+          <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+      </div>
+          </div>
+          </div>
+          <!--Roupa 7-->
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card " style="width: 18rem;">
+        <img src="imagens/biquini.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biquíni Cortininha com Bojo</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar7">20,26</span></p>
+          <p class="card-text">Valor em Real: <span id="real7"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+      </div>
+      <!--Roupa 8-->
+            <div class="card" style="width: 18rem;">
+        <img src="imagens/biquiniBranco.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biquíni Buzios Drink</h5>
+          <p class="card-text">Valor em Dólar: <span id="dolar8">20,26</span></p>
+          <p class="card-text">Valor em Real: <span id="real8"></span></p>
+           <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+          
+        </div>
+              </div>
+
+              <!--Roupa 8-->
+    <div class="col-md-4">
+      <div class="card">
+          <div class="card-body">
+              <div class="card" style="width: 18rem;">
+                  <img src="imagens/saidabanho.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Saída de Praia Curta Babados Tule - Branco</h5>
+                    <p class="card-text">Valor em Dólar: <span id="dolar9">12,07</span></p>
+              <p class="card-text">Valor em Real: <span id="real9"></span></p>
+                    <a href="index_cep.html" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+  </div>
+      </div>
+  </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+          
+          
+          
+          
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        </body>
+
+
+          
+        <br><br>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-6 centro"> 
+                    <p>Telefone: (11)9305-2587</p>
+                </div> 
+
+                <div class="col-lg-4 col-6 centro">  
+                    <figure class="rede-social">
+                       
+                        <a href="#"><img src="imagens/download-removebg-preview (10).png" height="60px"></a>
+                        @vanilla_store
+                        
+                      </figure>
+                   <br>
+                  
+                </div> <!--Fim Icone e Links-->
+                
+                <div class="col-lg-4 col-12 logo"> <!--Logo-->
+                    <a href="#"><img src="imagens/local.png" height="60px"></a>
+                    R. Dom Antônio Cândido de Alvarenga, 353
+            </div> <!--Fim Logo-->
+            
+         </div> 
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
